@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Curso de Alemán</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="modal-overlay">
+        <div class="form-container">
+            <a href="https://www.linguastic.net" class="close-btn" aria-label="Cerrar">&times;</a>
+            <h1>Registro al curso de alemán</h1>
+
+            <form id="registro-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre <span class="required">*</span></label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo"  required>
+                </div>
+
+                <div class="form-group">
+                    <label for="horario">Horario <span class="required">*</span></label>
+                    <select id="horario" name="horario" required>
+                        <option value="" disabled selected>Elige uno</option>
+                        <option value="Martes y Jueves - 4:00 - 6:00 pm">Martes y Jueves - 4:00 - 6:00 pm</option>
+                        <option value="Sábados - 1:30 - 4:30 pm">Sábados - 1:30 - 4:30 pm</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
