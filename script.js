@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // TAREA 1: ENVIAR DATOS AL SERVIDOR SILENCIOSAMENTE
 
         // Usamos 'fetch' para enviar los datos a nuestro servidor local
-        fetch('https://linguastic-backed.onrender.com', {
+        fetch('https://linguastic-backed.onrender.com/registrar', {
             method: 'POST', // Le decimos que es una petición de tipo POST
             headers: {
                 // Le decimos al servidor que le estamos enviando datos de formulario
